@@ -1,0 +1,21 @@
+# Ignore virtual environment
+myenv/
+venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore OS-generated files
+.DS_Store
+
+# Ignore database files
+dump.rdb
+
+# Ignore requirements
+requirement.txt
+
+# Ignore frontend and backend submodules if they should not be part of the main repo
+Library-Management-System/
+frontend/
+Backend/
